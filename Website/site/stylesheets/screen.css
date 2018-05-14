@@ -1,0 +1,2448 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 1, ../sass/layout/_base.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 22, ../sass/layout/_base.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 26, ../sass/layout/_base.scss */
+body {
+  line-height: 1;
+  background: #fff;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* line 31, ../sass/layout/_base.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 34, ../sass/layout/_base.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 37, ../sass/layout/_base.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 42, ../sass/layout/_base.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 46, ../sass/layout/_base.scss */
+button:hover {
+  opacity: 0.9;
+}
+
+/* line 50, ../sass/layout/_base.scss */
+.row {
+  margin-bottom: 0px;
+}
+
+/* line 54, ../sass/layout/_base.scss */
+.sec-paddig {
+  padding: 120px 0px;
+}
+
+/* line 57, ../sass/layout/_base.scss */
+.mg-bt {
+  margin-bottom: 30px !important;
+  display: block;
+}
+
+/* line 1, ../sass/tools/_plugin.scss */
+.slider .slides li img {
+  background-size: cover;
+  background-position: center;
+}
+
+/* line 5, ../sass/tools/_plugin.scss */
+.slider .slides {
+  height: 480px !important;
+  overflow: hidden;
+  background: none !important;
+}
+
+/* line 10, ../sass/tools/_plugin.scss */
+.slider .indicators {
+  bottom: -50px;
+}
+
+/* line 13, ../sass/tools/_plugin.scss */
+.slider .indicators .indicator-item.active {
+  background-color: #fff !important;
+}
+
+/* line 16, ../sass/tools/_plugin.scss */
+.slider .indicators .indicator-item {
+  background-color: #ffffff3d !important;
+}
+
+/* line 20, ../sass/tools/_plugin.scss */
+.slider {
+  position: relative;
+  height: 400px;
+  width: 97% !important;
+  margin: 0px auto !important;
+}
+
+/* line 1, ../sass/layout/_header.scss */
+.banner {
+  width: 100%;
+  background: #fff;
+  min-height: 650px;
+}
+
+/* line 1, ../sass/layout/_menu.scss */
+nav {
+  box-shadow: none;
+  background: #fff;
+  margin-top: 50px;
+}
+/* line 7, ../sass/layout/_menu.scss */
+nav ul li {
+  line-height: 64px;
+  transition: all 0.5s ease;
+}
+/* line 10, ../sass/layout/_menu.scss */
+nav ul li a {
+  color: #3E5F71;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}
+/* line 15, ../sass/layout/_menu.scss */
+nav ul li a:hover {
+  background: none;
+  color: #333;
+  opacity: 0.6;
+}
+/* line 21, ../sass/layout/_menu.scss */
+nav ul li .become-a-bt {
+  background: #2CC055;
+  height: 45px;
+  border-radius: 3px;
+  line-height: 45px;
+  color: #fff;
+  padding: 0px 20px;
+  margin-left: 20px;
+}
+/* line 29, ../sass/layout/_menu.scss */
+nav ul li .become-a-bt:hover {
+  background: #2CC055;
+  color: #fff;
+  font-weight: normal;
+  opacity: 1;
+}
+/* line 38, ../sass/layout/_menu.scss */
+nav .brand-logo {
+  width: 100px;
+  height: auto;
+}
+
+/* line 45, ../sass/layout/_menu.scss */
+nav a {
+  color: #333;
+}
+
+/* line 49, ../sass/layout/_menu.scss */
+.sticky {
+  position: fixed;
+  width: 100%;
+  left: 0px;
+  padding: 10px 50px;
+  top: 0px;
+  margin: 0px;
+  background: #fff;
+  border-bottom: 1px solid #f1f1f1;
+  height: 85px;
+  z-index: 999;
+}
+
+/* line 1, ../sass/layout/_footer.scss */
+footer {
+  width: 100%;
+  background: #0D374D;
+  text-align: center;
+  padding: 30px 0px;
+}
+/* line 7, ../sass/layout/_footer.scss */
+footer ul li {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  border-radius: 160px;
+  -moz-border-radius: 160px;
+  -webkit-border-radius: 160px;
+  background: #336783;
+  color: #fff;
+  line-height: 45px;
+}
+/* line 17, ../sass/layout/_footer.scss */
+footer ul li a {
+  color: #fff;
+  display: block;
+}
+/* line 21, ../sass/layout/_footer.scss */
+footer ul li:hover {
+  opacity: 0.6;
+}
+/* line 26, ../sass/layout/_footer.scss */
+footer span {
+  display: block;
+  text-align: center;
+  font-size: 13px;
+  color: #fff;
+  padding: 15px 0px;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-duration='50'], body[data-aos-duration='50'] [data-aos] {
+  transition-duration: 50ms;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='50'], body[data-aos-delay='50'] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='50'].aos-animate, body[data-aos-delay='50'] [data-aos].aos-animate {
+  transition-delay: 50ms;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-duration='100'], body[data-aos-duration='100'] [data-aos] {
+  transition-duration: .1s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='100'], body[data-aos-delay='100'] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='100'].aos-animate, body[data-aos-delay='100'] [data-aos].aos-animate {
+  transition-delay: .1s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-duration='150'], body[data-aos-duration='150'] [data-aos] {
+  transition-duration: .15s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='150'], body[data-aos-delay='150'] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='150'].aos-animate, body[data-aos-delay='150'] [data-aos].aos-animate {
+  transition-delay: .15s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-duration='200'], body[data-aos-duration='200'] [data-aos] {
+  transition-duration: .2s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='200'], body[data-aos-delay='200'] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='200'].aos-animate, body[data-aos-delay='200'] [data-aos].aos-animate {
+  transition-delay: .2s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-duration='250'], body[data-aos-duration='250'] [data-aos] {
+  transition-duration: .25s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='250'], body[data-aos-delay='250'] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='250'].aos-animate, body[data-aos-delay='250'] [data-aos].aos-animate {
+  transition-delay: .25s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-duration='300'], body[data-aos-duration='300'] [data-aos] {
+  transition-duration: .3s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='300'], body[data-aos-delay='300'] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='300'].aos-animate, body[data-aos-delay='300'] [data-aos].aos-animate {
+  transition-delay: .3s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-duration='350'], body[data-aos-duration='350'] [data-aos] {
+  transition-duration: .35s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='350'], body[data-aos-delay='350'] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='350'].aos-animate, body[data-aos-delay='350'] [data-aos].aos-animate {
+  transition-delay: .35s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-duration='400'], body[data-aos-duration='400'] [data-aos] {
+  transition-duration: .4s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='400'], body[data-aos-delay='400'] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='400'].aos-animate, body[data-aos-delay='400'] [data-aos].aos-animate {
+  transition-delay: .4s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-duration='450'], body[data-aos-duration='450'] [data-aos] {
+  transition-duration: .45s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='450'], body[data-aos-delay='450'] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='450'].aos-animate, body[data-aos-delay='450'] [data-aos].aos-animate {
+  transition-delay: .45s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-duration='500'], body[data-aos-duration='500'] [data-aos] {
+  transition-duration: .5s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='500'], body[data-aos-delay='500'] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='500'].aos-animate, body[data-aos-delay='500'] [data-aos].aos-animate {
+  transition-delay: .5s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-duration='550'], body[data-aos-duration='550'] [data-aos] {
+  transition-duration: .55s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='550'], body[data-aos-delay='550'] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='550'].aos-animate, body[data-aos-delay='550'] [data-aos].aos-animate {
+  transition-delay: .55s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-duration='600'], body[data-aos-duration='600'] [data-aos] {
+  transition-duration: .6s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='600'], body[data-aos-delay='600'] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='600'].aos-animate, body[data-aos-delay='600'] [data-aos].aos-animate {
+  transition-delay: .6s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-duration='650'], body[data-aos-duration='650'] [data-aos] {
+  transition-duration: .65s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='650'], body[data-aos-delay='650'] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='650'].aos-animate, body[data-aos-delay='650'] [data-aos].aos-animate {
+  transition-delay: .65s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-duration='700'], body[data-aos-duration='700'] [data-aos] {
+  transition-duration: .7s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='700'], body[data-aos-delay='700'] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='700'].aos-animate, body[data-aos-delay='700'] [data-aos].aos-animate {
+  transition-delay: .7s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-duration='750'], body[data-aos-duration='750'] [data-aos] {
+  transition-duration: .75s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='750'], body[data-aos-delay='750'] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='750'].aos-animate, body[data-aos-delay='750'] [data-aos].aos-animate {
+  transition-delay: .75s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-duration='800'], body[data-aos-duration='800'] [data-aos] {
+  transition-duration: .8s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='800'], body[data-aos-delay='800'] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='800'].aos-animate, body[data-aos-delay='800'] [data-aos].aos-animate {
+  transition-delay: .8s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-duration='850'], body[data-aos-duration='850'] [data-aos] {
+  transition-duration: .85s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='850'], body[data-aos-delay='850'] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='850'].aos-animate, body[data-aos-delay='850'] [data-aos].aos-animate {
+  transition-delay: .85s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-duration='900'], body[data-aos-duration='900'] [data-aos] {
+  transition-duration: .9s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='900'], body[data-aos-delay='900'] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='900'].aos-animate, body[data-aos-delay='900'] [data-aos].aos-animate {
+  transition-delay: .9s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-duration='950'], body[data-aos-duration='950'] [data-aos] {
+  transition-duration: .95s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='950'], body[data-aos-delay='950'] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='950'].aos-animate, body[data-aos-delay='950'] [data-aos].aos-animate {
+  transition-delay: .95s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-duration='1000'], body[data-aos-duration='1000'] [data-aos] {
+  transition-duration: 1s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='1000'], body[data-aos-delay='1000'] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='1000'].aos-animate, body[data-aos-delay='1000'] [data-aos].aos-animate {
+  transition-delay: 1s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-duration='1050'], body[data-aos-duration='1050'] [data-aos] {
+  transition-duration: 1.05s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='1050'], body[data-aos-delay='1050'] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='1050'].aos-animate, body[data-aos-delay='1050'] [data-aos].aos-animate {
+  transition-delay: 1.05s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-duration='1100'], body[data-aos-duration='1100'] [data-aos] {
+  transition-duration: 1.1s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='1100'], body[data-aos-delay='1100'] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='1100'].aos-animate, body[data-aos-delay='1100'] [data-aos].aos-animate {
+  transition-delay: 1.1s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-duration='1150'], body[data-aos-duration='1150'] [data-aos] {
+  transition-duration: 1.15s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='1150'], body[data-aos-delay='1150'] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='1150'].aos-animate, body[data-aos-delay='1150'] [data-aos].aos-animate {
+  transition-delay: 1.15s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-duration='1200'], body[data-aos-duration='1200'] [data-aos] {
+  transition-duration: 1.2s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='1200'], body[data-aos-delay='1200'] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='1200'].aos-animate, body[data-aos-delay='1200'] [data-aos].aos-animate {
+  transition-delay: 1.2s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-duration='1250'], body[data-aos-duration='1250'] [data-aos] {
+  transition-duration: 1.25s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='1250'], body[data-aos-delay='1250'] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='1250'].aos-animate, body[data-aos-delay='1250'] [data-aos].aos-animate {
+  transition-delay: 1.25s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-duration='1300'], body[data-aos-duration='1300'] [data-aos] {
+  transition-duration: 1.3s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='1300'], body[data-aos-delay='1300'] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='1300'].aos-animate, body[data-aos-delay='1300'] [data-aos].aos-animate {
+  transition-delay: 1.3s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-duration='1350'], body[data-aos-duration='1350'] [data-aos] {
+  transition-duration: 1.35s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='1350'], body[data-aos-delay='1350'] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='1350'].aos-animate, body[data-aos-delay='1350'] [data-aos].aos-animate {
+  transition-delay: 1.35s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-duration='1400'], body[data-aos-duration='1400'] [data-aos] {
+  transition-duration: 1.4s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='1400'], body[data-aos-delay='1400'] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='1400'].aos-animate, body[data-aos-delay='1400'] [data-aos].aos-animate {
+  transition-delay: 1.4s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-duration='1450'], body[data-aos-duration='1450'] [data-aos] {
+  transition-duration: 1.45s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='1450'], body[data-aos-delay='1450'] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='1450'].aos-animate, body[data-aos-delay='1450'] [data-aos].aos-animate {
+  transition-delay: 1.45s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-duration='1500'], body[data-aos-duration='1500'] [data-aos] {
+  transition-duration: 1.5s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='1500'], body[data-aos-delay='1500'] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='1500'].aos-animate, body[data-aos-delay='1500'] [data-aos].aos-animate {
+  transition-delay: 1.5s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-duration='1550'], body[data-aos-duration='1550'] [data-aos] {
+  transition-duration: 1.55s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='1550'], body[data-aos-delay='1550'] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='1550'].aos-animate, body[data-aos-delay='1550'] [data-aos].aos-animate {
+  transition-delay: 1.55s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-duration='1600'], body[data-aos-duration='1600'] [data-aos] {
+  transition-duration: 1.6s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='1600'], body[data-aos-delay='1600'] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='1600'].aos-animate, body[data-aos-delay='1600'] [data-aos].aos-animate {
+  transition-delay: 1.6s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-duration='1650'], body[data-aos-duration='1650'] [data-aos] {
+  transition-duration: 1.65s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='1650'], body[data-aos-delay='1650'] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='1650'].aos-animate, body[data-aos-delay='1650'] [data-aos].aos-animate {
+  transition-delay: 1.65s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-duration='1700'], body[data-aos-duration='1700'] [data-aos] {
+  transition-duration: 1.7s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='1700'], body[data-aos-delay='1700'] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='1700'].aos-animate, body[data-aos-delay='1700'] [data-aos].aos-animate {
+  transition-delay: 1.7s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-duration='1750'], body[data-aos-duration='1750'] [data-aos] {
+  transition-duration: 1.75s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='1750'], body[data-aos-delay='1750'] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='1750'].aos-animate, body[data-aos-delay='1750'] [data-aos].aos-animate {
+  transition-delay: 1.75s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-duration='1800'], body[data-aos-duration='1800'] [data-aos] {
+  transition-duration: 1.8s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='1800'], body[data-aos-delay='1800'] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='1800'].aos-animate, body[data-aos-delay='1800'] [data-aos].aos-animate {
+  transition-delay: 1.8s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-duration='1850'], body[data-aos-duration='1850'] [data-aos] {
+  transition-duration: 1.85s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='1850'], body[data-aos-delay='1850'] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='1850'].aos-animate, body[data-aos-delay='1850'] [data-aos].aos-animate {
+  transition-delay: 1.85s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-duration='1900'], body[data-aos-duration='1900'] [data-aos] {
+  transition-duration: 1.9s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='1900'], body[data-aos-delay='1900'] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='1900'].aos-animate, body[data-aos-delay='1900'] [data-aos].aos-animate {
+  transition-delay: 1.9s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-duration='1950'], body[data-aos-duration='1950'] [data-aos] {
+  transition-duration: 1.95s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='1950'], body[data-aos-delay='1950'] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='1950'].aos-animate, body[data-aos-delay='1950'] [data-aos].aos-animate {
+  transition-delay: 1.95s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-duration='2000'], body[data-aos-duration='2000'] [data-aos] {
+  transition-duration: 2s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='2000'], body[data-aos-delay='2000'] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='2000'].aos-animate, body[data-aos-delay='2000'] [data-aos].aos-animate {
+  transition-delay: 2s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-duration='2050'], body[data-aos-duration='2050'] [data-aos] {
+  transition-duration: 2.05s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='2050'], body[data-aos-delay='2050'] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='2050'].aos-animate, body[data-aos-delay='2050'] [data-aos].aos-animate {
+  transition-delay: 2.05s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-duration='2100'], body[data-aos-duration='2100'] [data-aos] {
+  transition-duration: 2.1s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='2100'], body[data-aos-delay='2100'] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='2100'].aos-animate, body[data-aos-delay='2100'] [data-aos].aos-animate {
+  transition-delay: 2.1s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-duration='2150'], body[data-aos-duration='2150'] [data-aos] {
+  transition-duration: 2.15s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='2150'], body[data-aos-delay='2150'] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='2150'].aos-animate, body[data-aos-delay='2150'] [data-aos].aos-animate {
+  transition-delay: 2.15s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-duration='2200'], body[data-aos-duration='2200'] [data-aos] {
+  transition-duration: 2.2s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='2200'], body[data-aos-delay='2200'] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='2200'].aos-animate, body[data-aos-delay='2200'] [data-aos].aos-animate {
+  transition-delay: 2.2s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-duration='2250'], body[data-aos-duration='2250'] [data-aos] {
+  transition-duration: 2.25s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='2250'], body[data-aos-delay='2250'] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='2250'].aos-animate, body[data-aos-delay='2250'] [data-aos].aos-animate {
+  transition-delay: 2.25s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-duration='2300'], body[data-aos-duration='2300'] [data-aos] {
+  transition-duration: 2.3s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='2300'], body[data-aos-delay='2300'] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='2300'].aos-animate, body[data-aos-delay='2300'] [data-aos].aos-animate {
+  transition-delay: 2.3s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-duration='2350'], body[data-aos-duration='2350'] [data-aos] {
+  transition-duration: 2.35s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='2350'], body[data-aos-delay='2350'] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='2350'].aos-animate, body[data-aos-delay='2350'] [data-aos].aos-animate {
+  transition-delay: 2.35s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-duration='2400'], body[data-aos-duration='2400'] [data-aos] {
+  transition-duration: 2.4s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='2400'], body[data-aos-delay='2400'] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='2400'].aos-animate, body[data-aos-delay='2400'] [data-aos].aos-animate {
+  transition-delay: 2.4s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-duration='2450'], body[data-aos-duration='2450'] [data-aos] {
+  transition-duration: 2.45s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='2450'], body[data-aos-delay='2450'] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='2450'].aos-animate, body[data-aos-delay='2450'] [data-aos].aos-animate {
+  transition-delay: 2.45s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-duration='2500'], body[data-aos-duration='2500'] [data-aos] {
+  transition-duration: 2.5s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='2500'], body[data-aos-delay='2500'] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='2500'].aos-animate, body[data-aos-delay='2500'] [data-aos].aos-animate {
+  transition-delay: 2.5s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-duration='2550'], body[data-aos-duration='2550'] [data-aos] {
+  transition-duration: 2.55s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='2550'], body[data-aos-delay='2550'] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='2550'].aos-animate, body[data-aos-delay='2550'] [data-aos].aos-animate {
+  transition-delay: 2.55s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-duration='2600'], body[data-aos-duration='2600'] [data-aos] {
+  transition-duration: 2.6s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='2600'], body[data-aos-delay='2600'] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='2600'].aos-animate, body[data-aos-delay='2600'] [data-aos].aos-animate {
+  transition-delay: 2.6s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-duration='2650'], body[data-aos-duration='2650'] [data-aos] {
+  transition-duration: 2.65s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='2650'], body[data-aos-delay='2650'] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='2650'].aos-animate, body[data-aos-delay='2650'] [data-aos].aos-animate {
+  transition-delay: 2.65s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-duration='2700'], body[data-aos-duration='2700'] [data-aos] {
+  transition-duration: 2.7s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='2700'], body[data-aos-delay='2700'] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='2700'].aos-animate, body[data-aos-delay='2700'] [data-aos].aos-animate {
+  transition-delay: 2.7s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-duration='2750'], body[data-aos-duration='2750'] [data-aos] {
+  transition-duration: 2.75s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='2750'], body[data-aos-delay='2750'] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='2750'].aos-animate, body[data-aos-delay='2750'] [data-aos].aos-animate {
+  transition-delay: 2.75s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-duration='2800'], body[data-aos-duration='2800'] [data-aos] {
+  transition-duration: 2.8s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='2800'], body[data-aos-delay='2800'] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='2800'].aos-animate, body[data-aos-delay='2800'] [data-aos].aos-animate {
+  transition-delay: 2.8s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-duration='2850'], body[data-aos-duration='2850'] [data-aos] {
+  transition-duration: 2.85s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='2850'], body[data-aos-delay='2850'] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='2850'].aos-animate, body[data-aos-delay='2850'] [data-aos].aos-animate {
+  transition-delay: 2.85s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-duration='2900'], body[data-aos-duration='2900'] [data-aos] {
+  transition-duration: 2.9s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='2900'], body[data-aos-delay='2900'] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='2900'].aos-animate, body[data-aos-delay='2900'] [data-aos].aos-animate {
+  transition-delay: 2.9s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-duration='2950'], body[data-aos-duration='2950'] [data-aos] {
+  transition-duration: 2.95s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='2950'], body[data-aos-delay='2950'] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='2950'].aos-animate, body[data-aos-delay='2950'] [data-aos].aos-animate {
+  transition-delay: 2.95s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-duration='3000'], body[data-aos-duration='3000'] [data-aos] {
+  transition-duration: 3s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='3000'], body[data-aos-delay='3000'] [data-aos] {
+  transition-delay: 0;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-delay='3000'].aos-animate, body[data-aos-delay='3000'] [data-aos].aos-animate {
+  transition-delay: 3s;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-easing=linear], body[data-aos-easing=linear] [data-aos] {
+  transition-timing-function: cubic-bezier(0.25, 0.25, 0.75, 0.75);
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-easing=ease], body[data-aos-easing=ease] [data-aos] {
+  transition-timing-function: ease;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-easing=ease-in], body[data-aos-easing=ease-in] [data-aos] {
+  transition-timing-function: ease-in;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-easing=ease-out], body[data-aos-easing=ease-out] [data-aos] {
+  transition-timing-function: ease-out;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-easing=ease-in-out], body[data-aos-easing=ease-in-out] [data-aos] {
+  transition-timing-function: ease-in-out;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-easing=ease-in-back], body[data-aos-easing=ease-in-back] [data-aos] {
+  transition-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-easing=ease-out-back], body[data-aos-easing=ease-out-back] [data-aos] {
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-easing=ease-in-out-back], body[data-aos-easing=ease-in-out-back] [data-aos] {
+  transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-easing=ease-in-sine], body[data-aos-easing=ease-in-sine] [data-aos] {
+  transition-timing-function: cubic-bezier(0.47, 0, 0.745, 0.715);
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-easing=ease-out-sine], body[data-aos-easing=ease-out-sine] [data-aos] {
+  transition-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-easing=ease-in-out-sine], body[data-aos-easing=ease-in-out-sine] [data-aos] {
+  transition-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-easing=ease-in-quad], body[data-aos-easing=ease-in-quad] [data-aos] {
+  transition-timing-function: cubic-bezier(0.55, 0.085, 0.68, 0.53);
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-easing=ease-out-quad], body[data-aos-easing=ease-out-quad] [data-aos] {
+  transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-easing=ease-in-out-quad], body[data-aos-easing=ease-in-out-quad] [data-aos] {
+  transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-easing=ease-in-cubic], body[data-aos-easing=ease-in-cubic] [data-aos] {
+  transition-timing-function: cubic-bezier(0.55, 0.085, 0.68, 0.53);
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-easing=ease-out-cubic], body[data-aos-easing=ease-out-cubic] [data-aos] {
+  transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-easing=ease-in-out-cubic], body[data-aos-easing=ease-in-out-cubic] [data-aos] {
+  transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-easing=ease-in-quart], body[data-aos-easing=ease-in-quart] [data-aos] {
+  transition-timing-function: cubic-bezier(0.55, 0.085, 0.68, 0.53);
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-easing=ease-out-quart], body[data-aos-easing=ease-out-quart] [data-aos] {
+  transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos][data-aos][data-aos-easing=ease-in-out-quart], body[data-aos-easing=ease-in-out-quart] [data-aos] {
+  transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos^=fade][data-aos^=fade] {
+  opacity: 0;
+  transition-property: opacity,transform;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos^=fade][data-aos^=fade].aos-animate {
+  opacity: 1;
+  transform: translate(0);
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos=fade-up] {
+  transform: translateY(100px);
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos=fade-down] {
+  transform: translateY(-100px);
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos=fade-right] {
+  transform: translate(-100px);
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos=fade-left] {
+  transform: translate(100px);
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos=fade-up-right] {
+  transform: translate(-100px, 100px);
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos=fade-up-left] {
+  transform: translate(100px, 100px);
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos=fade-down-right] {
+  transform: translate(-100px, -100px);
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos=fade-down-left] {
+  transform: translate(100px, -100px);
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos^=zoom][data-aos^=zoom] {
+  opacity: 0;
+  transition-property: opacity,transform;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos^=zoom][data-aos^=zoom].aos-animate {
+  opacity: 1;
+  transform: translate(0) scale(1);
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos=zoom-in] {
+  transform: scale(0.6);
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos=zoom-in-up] {
+  transform: translateY(100px) scale(0.6);
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos=zoom-in-down] {
+  transform: translateY(-100px) scale(0.6);
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos=zoom-in-right] {
+  transform: translate(-100px) scale(0.6);
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos=zoom-in-left] {
+  transform: translate(100px) scale(0.6);
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos=zoom-out] {
+  transform: scale(1.2);
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos=zoom-out-up] {
+  transform: translateY(100px) scale(1.2);
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos=zoom-out-down] {
+  transform: translateY(-100px) scale(1.2);
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos=zoom-out-right] {
+  transform: translate(-100px) scale(1.2);
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos=zoom-out-left] {
+  transform: translate(100px) scale(1.2);
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos^=slide][data-aos^=slide] {
+  transition-property: transform;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos^=slide][data-aos^=slide].aos-animate {
+  transform: translate(0);
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos=slide-up] {
+  transform: translateY(100%);
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos=slide-down] {
+  transform: translateY(-100%);
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos=slide-right] {
+  transform: translateX(-100%);
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos=slide-left] {
+  transform: translateX(100%);
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos^=flip][data-aos^=flip] {
+  backface-visibility: hidden;
+  transition-property: transform;
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos=flip-left] {
+  transform: perspective(2500px) rotateY(-100deg);
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos=flip-left].aos-animate {
+  transform: perspective(2500px) rotateY(0);
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos=flip-right] {
+  transform: perspective(2500px) rotateY(100deg);
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos=flip-right].aos-animate {
+  transform: perspective(2500px) rotateY(0);
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos=flip-up] {
+  transform: perspective(2500px) rotateX(-100deg);
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos=flip-up].aos-animate {
+  transform: perspective(2500px) rotateX(0);
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos=flip-down] {
+  transform: perspective(2500px) rotateX(100deg);
+}
+
+/* line 1, ../sass/layout/_animation.scss */
+[data-aos=flip-down].aos-animate {
+  transform: perspective(2500px) rotateX(0);
+}
+
+/*# sourceMappingURL=aos.css.map*/
+/* line 1, ../sass/layout/_form.scss */
+input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #d1d1d1;
+  border-radius: 0;
+  outline: none;
+  height: 3rem;
+  width: 100%;
+  font-size: 1rem;
+  margin: 0 0 20px 0;
+  padding: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 300;
+}
+
+/* line 23, ../sass/layout/_form.scss */
+input:not([type]):focus:not([readonly]),
+input[type=text]:not(.browser-default):focus:not([readonly]),
+input[type=password]:not(.browser-default):focus:not([readonly]),
+input[type=email]:not(.browser-default):focus:not([readonly]),
+input[type=url]:not(.browser-default):focus:not([readonly]),
+input[type=time]:not(.browser-default):focus:not([readonly]),
+input[type=date]:not(.browser-default):focus:not([readonly]),
+input[type=datetime]:not(.browser-default):focus:not([readonly]),
+input[type=datetime-local]:not(.browser-default):focus:not([readonly]),
+input[type=tel]:not(.browser-default):focus:not([readonly]),
+input[type=number]:not(.browser-default):focus:not([readonly]),
+input[type=search]:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #64B6E6;
+  -webkit-box-shadow: 0 1px 0 0 #64B6E6;
+  box-shadow: 0 1px 0 0 #64B6E6;
+}
+
+/* line 41, ../sass/layout/_form.scss */
+input:not([type]):focus:not([readonly]) + label,
+input[type=text]:not(.browser-default):focus:not([readonly]) + label,
+input[type=password]:not(.browser-default):focus:not([readonly]) + label,
+input[type=email]:not(.browser-default):focus:not([readonly]) + label,
+input[type=url]:not(.browser-default):focus:not([readonly]) + label,
+input[type=time]:not(.browser-default):focus:not([readonly]) + label,
+input[type=date]:not(.browser-default):focus:not([readonly]) + label,
+input[type=datetime]:not(.browser-default):focus:not([readonly]) + label,
+input[type=datetime-local]:not(.browser-default):focus:not([readonly]) + label,
+input[type=tel]:not(.browser-default):focus:not([readonly]) + label,
+input[type=number]:not(.browser-default):focus:not([readonly]) + label,
+input[type=search]:not(.browser-default):focus:not([readonly]) + label,
+textarea.materialize-textarea:focus:not([readonly]) + label {
+  color: #64B6E6;
+}
+
+/* line 57, ../sass/layout/_form.scss */
+.dropdown-content li > a, .dropdown-content li > span {
+  color: #64B6E6 !important;
+}
+
+/* line 1, ../sass/layout/pages/_home.scss */
+.banner-txt {
+  -webkit-transition: width 2s;
+  /* For Safari 3.1 to 6.0 */
+  transition: width 2s;
+  padding-top: 100px;
+}
+/* line 5, ../sass/layout/pages/_home.scss */
+.banner-txt img {
+  width: 100%;
+  height: auto;
+}
+/* line 9, ../sass/layout/pages/_home.scss */
+.banner-txt h1 {
+  font-size: 30px;
+  font-family: 'Open Sans', sans-serif;
+  color: #0D374D;
+  line-height: 50px;
+  display: block;
+  padding-top: 10%;
+}
+/* line 16, ../sass/layout/pages/_home.scss */
+.banner-txt h1 strong {
+  font-weight: 700;
+}
+/* line 20, ../sass/layout/pages/_home.scss */
+.banner-txt button {
+  border: none;
+  background: #FF5C5D;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  text-align: center;
+  transition: all 0.5s ease;
+  height: 45px;
+  padding: 0px 35px;
+  font-size: 13px;
+  text-transform: capitalize;
+  margin-top: 30px;
+}
+/* line 33, ../sass/layout/pages/_home.scss */
+.banner-txt button a {
+  color: #fff;
+}
+/* line 38, ../sass/layout/pages/_home.scss */
+.banner-txt button i {
+  color: #fff;
+  font-size: 12px;
+  padding-left: 5px;
+}
+
+/* line 50, ../sass/layout/pages/_home.scss */
+.promotions {
+  width: 100%;
+  background: #0D374D;
+  height: 170px;
+  background-image: url(../images/bg-promotion.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 30px 0px;
+}
+/* line 58, ../sass/layout/pages/_home.scss */
+.promotions h2 {
+  font-size: 20px;
+  color: #fff;
+  display: block;
+  text-align: center;
+}
+/* line 63, ../sass/layout/pages/_home.scss */
+.promotions h2 strong {
+  font-size: 40px;
+  font-weight: 600;
+}
+/* line 68, ../sass/layout/pages/_home.scss */
+.promotions h3 {
+  font-size: 25px;
+  color: #fff;
+  display: block;
+  text-align: center;
+  padding-top: 10px;
+}
+/* line 74, ../sass/layout/pages/_home.scss */
+.promotions h3 strong {
+  font-size: 20px;
+  font-weight: 600;
+  display: inline-block;
+  padding: 10px 20px;
+  background: #64B6E6;
+  border-radius: 35px;
+}
+
+/* line 89, ../sass/layout/pages/_home.scss */
+.introducing {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff5c5d+0,0d374d+100 */
+  background: #ff5c5d;
+  /* Old browsers */
+  background: -moz-linear-gradient(45deg, #ff5c5d 0%, #0d374d 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #ff5c5d 0%, #0d374d 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #ff5c5d 0%, #0d374d 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5c5d', endColorstr='#0d374d',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */
+  width: 100%;
+  height: 700px;
+}
+/* line 99, ../sass/layout/pages/_home.scss */
+.introducing h2 {
+  font-size: 25px;
+  color: #fff;
+  margin-top: 60px;
+  padding-bottom: 50px;
+  display: block;
+}
+/* line 105, ../sass/layout/pages/_home.scss */
+.introducing h2 strong {
+  font-weight: 600;
+}
+/* line 110, ../sass/layout/pages/_home.scss */
+.introducing ul li {
+  display: block;
+  color: #ffffff8a;
+  background-image: url(../images/icon-intro.svg);
+  background-repeat: no-repeat;
+  background-size: 42px;
+  font-size: 13px;
+  line-height: 22px;
+  padding-left: 70px;
+  margin-bottom: 20px;
+}
+
+/* line 128, ../sass/layout/pages/_home.scss */
+.feature {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eff9ff+0,ffffff+100,ffffff+101 */
+  background: #eff9ff;
+  /* Old browsers */
+  background: -moz-linear-gradient(45deg, #eff9ff 0%, #ffffff 100%, #ffffff 101%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #eff9ff 0%, #ffffff 100%, #ffffff 101%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #eff9ff 0%, #ffffff 100%, #ffffff 101%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eff9ff', endColorstr='#ffffff',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */
+}
+/* line 136, ../sass/layout/pages/_home.scss */
+.feature h2 {
+  font-size: 25px;
+  color: #0D374D;
+  padding-bottom: 50px;
+  display: block;
+}
+/* line 141, ../sass/layout/pages/_home.scss */
+.feature h2 strong {
+  font-weight: 600;
+}
+/* line 146, ../sass/layout/pages/_home.scss */
+.feature ul li {
+  display: block;
+  color: #3E5F71;
+  background-repeat: no-repeat;
+  background-size: 42px;
+  font-size: 13px;
+  line-height: 22px;
+  padding-left: 70px;
+  margin-bottom: 20px;
+}
+/* line 155, ../sass/layout/pages/_home.scss */
+.feature ul li strong {
+  color: #0D374D;
+  font-weight: 600;
+}
+/* line 160, ../sass/layout/pages/_home.scss */
+.feature ul .one {
+  background-image: url(../images/key-icon-1.svg);
+}
+/* line 161, ../sass/layout/pages/_home.scss */
+.feature ul .two {
+  background-image: url(../images/key-icon-2.svg);
+}
+/* line 162, ../sass/layout/pages/_home.scss */
+.feature ul .three {
+  background-image: url(../images/key-icon-3.svg);
+}
+/* line 163, ../sass/layout/pages/_home.scss */
+.feature ul .four {
+  background-image: url(../images/key-icon-4.svg);
+}
+/* line 164, ../sass/layout/pages/_home.scss */
+.feature ul .five {
+  background-image: url(../images/key-icon-5.svg);
+}
+
+/* line 172, ../sass/layout/pages/_home.scss */
+.customer {
+  background: #fff;
+}
+/* line 175, ../sass/layout/pages/_home.scss */
+.customer h2 {
+  font-size: 25px;
+  color: #0D374D;
+  padding-bottom: 50px;
+  display: block;
+  margin-top: 60px;
+}
+/* line 181, ../sass/layout/pages/_home.scss */
+.customer h2 strong {
+  font-weight: 600;
+}
+/* line 186, ../sass/layout/pages/_home.scss */
+.customer ul li {
+  display: block;
+  color: #3E5F71;
+  background-repeat: no-repeat;
+  background-size: 42px;
+  font-size: 13px;
+  line-height: 22px;
+  padding-left: 70px;
+  margin-bottom: 20px;
+  background-image: url(../images/icon-1.svg);
+}
+/* line 196, ../sass/layout/pages/_home.scss */
+.customer ul li strong {
+  color: #0D374D;
+  font-weight: 600;
+}
+
+/* line 206, ../sass/layout/pages/_home.scss */
+.how-it-work {
+  background: #fff;
+}
+/* line 208, ../sass/layout/pages/_home.scss */
+.how-it-work h2 {
+  display: block;
+  text-align: center;
+  font-size: 25px;
+  color: #0D374D;
+  padding-bottom: 60px;
+}
+/* line 214, ../sass/layout/pages/_home.scss */
+.how-it-work h2 strong {
+  font-weight: 600;
+}
+
+/* line 223, ../sass/layout/pages/_home.scss */
+.screens {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#049a71+0,64b6e6+100 */
+  background: #049a71;
+  /* Old browsers */
+  background: -moz-linear-gradient(45deg, #049a71 0%, #64b6e6 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #049a71 0%, #64b6e6 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #049a71 0%, #64b6e6 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#049a71', endColorstr='#64b6e6',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */
+}
+/* line 230, ../sass/layout/pages/_home.scss */
+.screens h2 {
+  display: block;
+  text-align: center;
+  font-size: 25px;
+  color: #fff;
+  padding-bottom: 10px;
+}
+/* line 236, ../sass/layout/pages/_home.scss */
+.screens h2 strong {
+  font-weight: 600;
+}
+/* line 240, ../sass/layout/pages/_home.scss */
+.screens p {
+  font-size: 13px;
+  color: #ffffffb3;
+  display: block;
+  text-align: center;
+}
+/* line 246, ../sass/layout/pages/_home.scss */
+.screens .app-icon {
+  margin: 20px auto;
+  display: block;
+  width: 330px;
+}
+/* line 250, ../sass/layout/pages/_home.scss */
+.screens .app-icon li {
+  display: inline-block;
+}
+/* line 252, ../sass/layout/pages/_home.scss */
+.screens .app-icon li img {
+  width: 160px;
+  height: auto;
+}
+
+/* line 260, ../sass/layout/pages/_home.scss */
+.all-screen {
+  margin-top: 10px;
+  height: 500px;
+}
+
+/* line 265, ../sass/layout/pages/_home.scss */
+.actionbutons {
+  width: 100%;
+  height: auto;
+}
+/* line 268, ../sass/layout/pages/_home.scss */
+.actionbutons .gorup-b {
+  width: 330px;
+  margin: 0px auto;
+}
+/* line 271, ../sass/layout/pages/_home.scss */
+.actionbutons .gorup-b button {
+  transition: all 0.5s ease;
+  border: 1px solid #fff;
+  color: #fff;
+  text-align: center;
+  height: 45px;
+  width: 160px;
+  display: inline-block;
+  background: none;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  font-size: 13px;
+}
+/* line 284, ../sass/layout/pages/_home.scss */
+.actionbutons .gorup-b button:hover {
+  background: #64B6E6;
+  border: 1px solid #64B6E6;
+}
+
+/* line 292, ../sass/layout/pages/_home.scss */
+#all-screen {
+  height: 530px;
+}
+
+/* line 295, ../sass/layout/pages/_home.scss */
+#proto-type {
+  height: 530px;
+}
+/* line 297, ../sass/layout/pages/_home.scss */
+#proto-type iframe {
+  margin: 0px auto;
+  display: block;
+}
+
+/* line 306, ../sass/layout/pages/_home.scss */
+.advantage {
+  background: #fff;
+}
+/* line 309, ../sass/layout/pages/_home.scss */
+.advantage h2 {
+  font-size: 25px;
+  color: #0D374D;
+  padding-bottom: 50px;
+  display: block;
+  margin-top: 60px;
+}
+/* line 315, ../sass/layout/pages/_home.scss */
+.advantage h2 strong {
+  font-weight: 600;
+}
+/* line 320, ../sass/layout/pages/_home.scss */
+.advantage ul li {
+  display: block;
+  color: #3E5F71;
+  background-repeat: no-repeat;
+  background-size: 42px;
+  font-size: 13px;
+  line-height: 22px;
+  padding-left: 70px;
+  margin-bottom: 20px;
+  background-image: url(../images/icon-thump.svg);
+  line-height: 20px;
+  min-height: 42px;
+}
+/* line 332, ../sass/layout/pages/_home.scss */
+.advantage ul li strong {
+  color: #0D374D;
+  font-weight: 600;
+}
+
+/* line 343, ../sass/layout/pages/_home.scss */
+.team {
+  background: #0D374D;
+}
+/* line 345, ../sass/layout/pages/_home.scss */
+.team h2 {
+  display: block;
+  text-align: center;
+  font-size: 25px;
+  color: #fff;
+  padding-bottom: 60px;
+}
+/* line 351, ../sass/layout/pages/_home.scss */
+.team h2 strong {
+  font-weight: 600;
+}
+/* line 355, ../sass/layout/pages/_home.scss */
+.team .box {
+  width: 100%;
+  border: 1px solid #ffffff24;
+  padding: 20px;
+  float: left;
+  min-height: 335px;
+}
+/* line 361, ../sass/layout/pages/_home.scss */
+.team .box .head {
+  width: 100%;
+}
+/* line 363, ../sass/layout/pages/_home.scss */
+.team .box .head i {
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  background-image: url(../images/icon-head.svg);
+  background-size: 32px;
+  background-repeat: no-repeat;
+  float: left;
+  margin-right: 10px;
+}
+/* line 373, ../sass/layout/pages/_home.scss */
+.team .box .head .name {
+  display: block;
+  width: calc(100% - 44px);
+  float: left;
+}
+/* line 377, ../sass/layout/pages/_home.scss */
+.team .box .head .name h3 {
+  color: #fff;
+  font-size: 14px;
+}
+/* line 381, ../sass/layout/pages/_home.scss */
+.team .box .head .name span {
+  color: #ffffff9e;
+  font-size: 12px;
+}
+/* line 387, ../sass/layout/pages/_home.scss */
+.team .box p {
+  display: block;
+  padding-top: 20px;
+  color: #ffffff45;
+  font-size: 13px;
+  float: left;
+  line-height: 20px;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+/* line 403, ../sass/layout/pages/_home.scss */
+.contact {
+  background: #fff;
+}
+/* line 405, ../sass/layout/pages/_home.scss */
+.contact h2 {
+  display: block;
+  text-align: center;
+  font-size: 25px;
+  color: #0D374D;
+  padding-bottom: 30px;
+}
+/* line 411, ../sass/layout/pages/_home.scss */
+.contact h2 strong {
+  font-weight: 600;
+}
+/* line 415, ../sass/layout/pages/_home.scss */
+.contact p {
+  width: 100%;
+  font-size: 13px;
+  line-height: 23px;
+  text-align: center;
+  color: #3E5F71;
+}
+/* line 422, ../sass/layout/pages/_home.scss */
+.contact .form {
+  width: 100%;
+  height: auto;
+  margin-top: 60px;
+}
+/* line 428, ../sass/layout/pages/_home.scss */
+.contact .msg textarea {
+  margin-top: 20px;
+}
+/* line 432, ../sass/layout/pages/_home.scss */
+.contact button {
+  border: none;
+  background: #FF5C5D;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  text-align: center;
+  transition: all 0.5s ease;
+  height: 45px;
+  padding: 0px 35px;
+  font-size: 13px;
+  text-transform: capitalize;
+  margin: 20px auto;
+  display: block;
+  width: 160px;
+}
+/* line 447, ../sass/layout/pages/_home.scss */
+.contact button a {
+  color: #fff;
+}
+
+/* line 2, ../sass/layout/pages/_become_a_partner.scss */
+.become-a-baner h1 {
+  padding-top: 20%;
+}
+/* line 4, ../sass/layout/pages/_become_a_partner.scss */
+.become-a-baner h1 span {
+  font-size: 16px;
+  display: block;
+}
+/* line 9, ../sass/layout/pages/_become_a_partner.scss */
+.become-a-baner button {
+  background: #2CC055;
+}
+
+/* line 16, ../sass/layout/pages/_become_a_partner.scss */
+.reality {
+  background: #0D374D;
+}
+/* line 18, ../sass/layout/pages/_become_a_partner.scss */
+.reality h2 {
+  font-size: 25px;
+  color: #fff;
+  margin-top: 60px;
+  padding-bottom: 50px;
+  display: block;
+}
+/* line 24, ../sass/layout/pages/_become_a_partner.scss */
+.reality h2 strong {
+  font-weight: 600;
+}
+/* line 29, ../sass/layout/pages/_become_a_partner.scss */
+.reality ul li {
+  display: block;
+  color: #ffffff8a;
+  background-image: url(../images/icon-reality.svg);
+  background-repeat: no-repeat;
+  background-size: 42px;
+  font-size: 13px;
+  line-height: 22px;
+  padding-left: 70px;
+  margin-bottom: 20px;
+  height: 42px;
+}
+
+/* line 46, ../sass/layout/pages/_become_a_partner.scss */
+.started {
+  background: #fff;
+}
+/* line 48, ../sass/layout/pages/_become_a_partner.scss */
+.started h2 {
+  display: block;
+  text-align: center;
+  font-size: 25px;
+  color: #0D374D;
+  padding-bottom: 60px;
+}
+/* line 54, ../sass/layout/pages/_become_a_partner.scss */
+.started h2 strong {
+  font-weight: 600;
+}
+
+/* line 62, ../sass/layout/pages/_become_a_partner.scss */
+.key-features {
+  background-image: url(../images/bg-core-value.png);
+  background-size: cover;
+}
+/* line 65, ../sass/layout/pages/_become_a_partner.scss */
+.key-features h2 {
+  display: block;
+  text-align: center;
+  font-size: 25px;
+  color: #fff;
+  padding-bottom: 60px;
+}
+/* line 71, ../sass/layout/pages/_become_a_partner.scss */
+.key-features h2 strong {
+  font-weight: 600;
+}
+
+/* line 79, ../sass/layout/pages/_become_a_partner.scss */
+.core-value {
+  background: #fff;
+}
+/* line 81, ../sass/layout/pages/_become_a_partner.scss */
+.core-value h2 {
+  display: block;
+  text-align: center;
+  font-size: 25px;
+  color: #0D374D;
+  padding-bottom: 60px;
+}
+/* line 87, ../sass/layout/pages/_become_a_partner.scss */
+.core-value h2 strong {
+  font-weight: 600;
+}
+
+/* line 95, ../sass/layout/pages/_become_a_partner.scss */
+.cost-structure {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#049a71+0,64b6e6+98 */
+  background: #049a71;
+  /* Old browsers */
+  background: -moz-linear-gradient(45deg, #049a71 0%, #64b6e6 98%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #049a71 0%, #64b6e6 98%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #049a71 0%, #64b6e6 98%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#049a71', endColorstr='#64b6e6',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */
+  min-height: 500px;
+}
+/* line 103, ../sass/layout/pages/_become_a_partner.scss */
+.cost-structure h2 {
+  display: block;
+  text-align: center;
+  font-size: 25px;
+  color: #fff;
+  padding-bottom: 20px;
+}
+/* line 109, ../sass/layout/pages/_become_a_partner.scss */
+.cost-structure h2 strong {
+  font-weight: 600;
+}
+/* line 113, ../sass/layout/pages/_become_a_partner.scss */
+.cost-structure p {
+  width: 100%;
+  font-size: 13px;
+  line-height: 23px;
+  text-align: center;
+  color: #fff;
+}
+/* line 120, ../sass/layout/pages/_become_a_partner.scss */
+.cost-structure .cost-table {
+  width: 580px;
+  margin: 0px auto;
+  margin-top: 20px;
+  background: #fff;
+  height: auto;
+}
+/* line 126, ../sass/layout/pages/_become_a_partner.scss */
+.cost-structure .cost-table .left-sec {
+  float: left;
+  width: 50%;
+}
+/* line 130, ../sass/layout/pages/_become_a_partner.scss */
+.cost-structure .cost-table .right-sec {
+  float: left;
+  width: 50%;
+}
+/* line 134, ../sass/layout/pages/_become_a_partner.scss */
+.cost-structure .cost-table h2 {
+  display: block;
+  height: 45px;
+  background: #64B6E6;
+  font-size: 14px;
+  text-align: center;
+  line-height: 45px;
+  border: 1px solid #ffffff57;
+}
+/* line 144, ../sass/layout/pages/_become_a_partner.scss */
+.cost-structure .cost-table ul li {
+  display: block;
+  width: 100%;
+  border: 1px solid #ffffff57;
+  padding: 15px;
+  color: #fff;
+}
+
+@media all and (max-width: 991px) {
+  /* line 3, ../sass/layout/pages/_responsive.scss */
+  nav ul li .become-a-bt {
+    width: 160px;
+  }
+
+  /* line 6, ../sass/layout/pages/_responsive.scss */
+  nav .brand-logo {
+    left: 15% !important;
+  }
+
+  /* line 9, ../sass/layout/pages/_responsive.scss */
+  nav .button-collapse {
+    float: right;
+  }
+
+  /* line 13, ../sass/layout/pages/_responsive.scss */
+  .banner-txt h1 {
+    text-align: center;
+  }
+  /* line 16, ../sass/layout/pages/_responsive.scss */
+  .banner-txt button {
+    margin: 20px auto;
+    text-align: center;
+    /* float: none; */
+    width: 200px;
+    display: block;
+  }
+
+  /* line 24, ../sass/layout/pages/_responsive.scss */
+  .introducing, .feature, .customer, .advantage, .reality {
+    height: auto;
+  }
+  /* line 26, ../sass/layout/pages/_responsive.scss */
+  .introducing h2, .feature h2, .customer h2, .advantage h2, .reality h2 {
+    text-align: center;
+    margin-top: 0px;
+  }
+  /* line 31, ../sass/layout/pages/_responsive.scss */
+  .introducing ul li, .feature ul li, .customer ul li, .advantage ul li, .reality ul li {
+    background-size: 30px;
+    padding-left: 50px;
+  }
+
+  /* line 39, ../sass/layout/pages/_responsive.scss */
+  .advantage li {
+    line-height: 20px !important;
+    background-size: 32px !important;
+  }
+
+  /* line 44, ../sass/layout/pages/_responsive.scss */
+  nav {
+    margin-top: 0px !important;
+    padding-bottom: 10px !important;
+    border-bottom: 1px solid #f1f1f1;
+  }
+  /* line 48, ../sass/layout/pages/_responsive.scss */
+  nav .brand-logo {
+    width: 80px;
+  }
+
+  /* line 52, ../sass/layout/pages/_responsive.scss */
+  .sticky {
+    padding: 10px 20px;
+    height: 65px;
+  }
+}
+@media all and (max-width: 768px) {
+  /* line 65, ../sass/layout/pages/_responsive.scss */
+  nav ul li .become-a-bt {
+    width: 160px;
+  }
+
+  /* line 68, ../sass/layout/pages/_responsive.scss */
+  nav .brand-logo {
+    left: 15% !important;
+  }
+
+  /* line 71, ../sass/layout/pages/_responsive.scss */
+  nav .button-collapse {
+    float: right;
+  }
+
+  /* line 75, ../sass/layout/pages/_responsive.scss */
+  .banner-txt h1 {
+    text-align: center;
+  }
+  /* line 78, ../sass/layout/pages/_responsive.scss */
+  .banner-txt button {
+    margin: 20px auto;
+    text-align: center;
+    /* float: none; */
+    width: 210px;
+    display: block;
+  }
+
+  /* line 86, ../sass/layout/pages/_responsive.scss */
+  .promotions {
+    height: auto;
+  }
+  /* line 88, ../sass/layout/pages/_responsive.scss */
+  .promotions h2 {
+    font-size: 16px;
+  }
+  /* line 90, ../sass/layout/pages/_responsive.scss */
+  .promotions h2 strong {
+    font-size: 16px;
+  }
+  /* line 94, ../sass/layout/pages/_responsive.scss */
+  .promotions h3 {
+    font-size: 16px;
+  }
+
+  /* line 98, ../sass/layout/pages/_responsive.scss */
+  .introducing, .feature, .customer, .advantage, .reality {
+    height: auto;
+  }
+  /* line 100, ../sass/layout/pages/_responsive.scss */
+  .introducing h2, .feature h2, .customer h2, .advantage h2, .reality h2 {
+    text-align: center;
+    margin-top: 0px;
+  }
+
+  /* line 107, ../sass/layout/pages/_responsive.scss */
+  .advantage li {
+    line-height: 20px !important;
+    background-size: 32px !important;
+  }
+
+  /* line 113, ../sass/layout/pages/_responsive.scss */
+  .sec-paddig {
+    padding: 40px 0px;
+  }
+
+  /* line 116, ../sass/layout/pages/_responsive.scss */
+  .team .box {
+    margin-bottom: 20px;
+  }
+
+  /* line 119, ../sass/layout/pages/_responsive.scss */
+  nav {
+    margin-top: 0px !important;
+    padding-bottom: 10px !important;
+    border-bottom: 1px solid #f1f1f1;
+  }
+  /* line 123, ../sass/layout/pages/_responsive.scss */
+  nav .brand-logo {
+    width: 80px;
+  }
+
+  /* line 127, ../sass/layout/pages/_responsive.scss */
+  .cost-structure .cost-table {
+    min-height: auto !important;
+    width: 100%;
+  }
+  /* line 130, ../sass/layout/pages/_responsive.scss */
+  .cost-structure .cost-table .left-sec {
+    width: 100%;
+  }
+  /* line 133, ../sass/layout/pages/_responsive.scss */
+  .cost-structure .cost-table .right-sec {
+    width: 100%;
+  }
+
+  /* line 137, ../sass/layout/pages/_responsive.scss */
+  .cost-structure {
+    min-height: 560px;
+  }
+
+  /* line 140, ../sass/layout/pages/_responsive.scss */
+  .become-a-baner {
+    min-height: auto;
+    padding-bottom: 30px;
+  }
+  /* line 143, ../sass/layout/pages/_responsive.scss */
+  .become-a-baner h1 {
+    padding-top: 0px;
+  }
+
+  /* line 147, ../sass/layout/pages/_responsive.scss */
+  .banner-txt {
+    padding-top: 30px;
+  }
+
+  /* line 150, ../sass/layout/pages/_responsive.scss */
+  .sticky {
+    padding: 10px 20px;
+    height: 65px;
+  }
+  /* line 153, ../sass/layout/pages/_responsive.scss */
+  .sticky .button-collapse {
+    margin: -6px 18px;
+  }
+
+  /* line 157, ../sass/layout/pages/_responsive.scss */
+  .slider .slides li img {
+    background-size: 100%;
+  }
+
+  /* line 160, ../sass/layout/pages/_responsive.scss */
+  .slider .slides li {
+    height: 200px;
+  }
+
+  /* line 163, ../sass/layout/pages/_responsive.scss */
+  #all-screen {
+    height: 200px;
+  }
+
+  /* line 166, ../sass/layout/pages/_responsive.scss */
+  .slider .indicators {
+    bottom: 0px;
+  }
+
+  /* line 169, ../sass/layout/pages/_responsive.scss */
+  .slider .slides {
+    height: 200px !important;
+  }
+
+  /* line 172, ../sass/layout/pages/_responsive.scss */
+  .slider {
+    height: 200px !important;
+  }
+}

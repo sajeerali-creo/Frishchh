@@ -1,0 +1,451 @@
+.banner-txt{
+	-webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s;
+	padding-top:100px;
+	img{
+		width: 100%;
+		height: auto;
+	}
+	h1{
+		font-size: 30px;
+		font-family: 'Open Sans', sans-serif;
+		color: $head;
+		line-height: 50px;
+		display: block;
+		padding-top:10%;
+		strong{
+			font-weight: 700;
+		}
+	}
+	button{
+		border:none;
+		background: $red;
+		border-radius:3px;
+		-webkit-border-radius:3px;
+		-moz-border-radius:3px;
+		text-align: center;
+		transition: all 0.5s ease;
+  		height: 45px;
+  		padding:0px 35px;
+  		font-size: 13px;
+  		text-transform: capitalize;
+  		margin-top: 30px;
+		a{
+			color: $white;
+
+
+		}
+		i{
+			color: $white;
+			font-size: 12px;
+			padding-left:5px;
+
+		}
+
+	}
+}
+
+// promotions
+// ================================================
+.promotions{
+	width:100%;
+	background:$head;
+	height:170px;
+	background-image:url(../images/bg-promotion.png);
+	background-size:cover;
+	background-repeat:no-repeat;
+	padding:30px 0px;
+	h2{
+		font-size: 20px;
+		color: #fff;
+		display: block;
+		text-align: center;
+		strong{
+			font-size: 40px;
+			font-weight: 600;
+		}
+	}
+	h3{
+		font-size: 25px;
+		color: #fff;
+		display: block;
+		text-align: center;
+		padding-top:10px;
+		strong{
+			font-size: 20px;
+			font-weight: 600;
+			display: inline-block;
+			padding:10px 20px;
+			background:$blue;
+			border-radius:35px;
+
+		}
+	}
+}
+
+// introducing
+// ================================================
+
+.introducing{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff5c5d+0,0d374d+100 */
+	background: #ff5c5d; /* Old browsers */
+	background: -moz-linear-gradient(45deg, #ff5c5d 0%, #0d374d 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(45deg, #ff5c5d 0%,#0d374d 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(45deg, #ff5c5d 0%,#0d374d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5c5d', endColorstr='#0d374d',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	width:100%;
+	height:700px;
+
+	h2{
+		font-size:25px;
+		color:$white;
+		margin-top:60px;
+		padding-bottom:50px;
+		display:block;
+		strong{
+			font-weight:600;
+		}
+	}
+	ul{
+		li{
+			display:block;
+			color:#ffffff8a;
+			background-image:url(../images/icon-intro.svg);
+			background-repeat:no-repeat;
+			background-size:42px;
+			font-size:13px;
+			line-height:22px;
+			padding-left:70px;
+			margin-bottom:20px;
+		}
+	}
+}
+
+
+// feature
+// ================================================
+
+.feature{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eff9ff+0,ffffff+100,ffffff+101 */
+background: #eff9ff; /* Old browsers */
+background: -moz-linear-gradient(45deg, #eff9ff 0%, #ffffff 100%, #ffffff 101%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg, #eff9ff 0%,#ffffff 100%,#ffffff 101%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg, #eff9ff 0%,#ffffff 100%,#ffffff 101%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eff9ff', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+	h2{
+		font-size:25px;
+		color:$head;
+		padding-bottom:50px;
+		display:block;
+		strong{
+			font-weight:600;
+		}
+	}
+	ul{
+		li{
+			display:block;
+			color:$text;
+			background-repeat:no-repeat;
+			background-size:42px;
+			font-size:13px;
+			line-height:22px;
+			padding-left:70px;
+			margin-bottom:20px;
+			strong{
+				color:$head;
+				font-weight:600;
+			}
+		}
+		.one{background-image:url(../images/key-icon-1.svg);}
+		.two{background-image:url(../images/key-icon-2.svg);}
+		.three{background-image:url(../images/key-icon-3.svg);}
+		.four{background-image:url(../images/key-icon-4.svg);}
+		.five{background-image:url(../images/key-icon-5.svg);}
+	}
+}
+
+
+// customer
+// ================================================
+
+.customer{
+	background:$white;
+
+	h2{
+		font-size:25px;
+		color:$head;
+		padding-bottom:50px;
+		display:block;
+		margin-top: 60px;
+		strong{
+			font-weight:600;
+		}
+	}
+	ul{
+		li{
+			display:block;
+			color:$text;
+			background-repeat:no-repeat;
+			background-size:42px;
+			font-size:13px;
+			line-height:22px;
+			padding-left:70px;
+			margin-bottom:20px;
+			background-image:url(../images/icon-1.svg);
+			strong{
+				color:$head;
+				font-weight:600;
+			}
+		}
+	}
+}
+
+// how-it-work
+// ================================================
+.how-it-work{
+	background:$white;
+	h2{
+		display: block;
+		text-align: center;
+		font-size:25px;
+		color:$head;
+		padding-bottom:60px;
+		strong{
+			font-weight:600;
+		}
+	}
+}
+
+// Frischh App Screens
+// ================================================
+
+.screens{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#049a71+0,64b6e6+100 */
+	background: #049a71; /* Old browsers */
+	background: -moz-linear-gradient(45deg, #049a71 0%, #64b6e6 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(45deg, #049a71 0%,#64b6e6 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(45deg, #049a71 0%,#64b6e6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#049a71', endColorstr='#64b6e6',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	h2{
+		display: block;
+		text-align: center;
+		font-size:25px;
+		color:$white;
+		padding-bottom:10px;
+		strong{
+			font-weight:600;
+		}
+	}
+	p{
+		font-size: 13px;
+		color: #ffffffb3;
+		display: block;
+		text-align: center;
+	}
+	.app-icon{
+		margin:20px auto;
+		display: block;
+		width: 330px;
+		li{
+			display: inline-block;
+			img{
+				width: 160px;
+				height: auto;
+			}
+		}
+	}
+}
+
+.all-screen{
+	margin-top: 10px;
+	height:500px;
+}
+
+.actionbutons{
+	width:100%;
+	height:auto;
+	.gorup-b{
+		width: 330px;
+		margin: 0px auto;
+		button{
+			transition: all 0.5s ease;
+			border:1px solid $white;
+			color: $white;
+			text-align: center;
+			height: 45px;
+			width: 160px;
+			display: inline-block;
+			background:none;
+			border-radius:3px;
+			-webkit-border-radius:3px;
+			-moz-border-radius:3px;
+			font-size: 13px;
+			&:hover{
+				background:$blue;
+				border:1px solid $blue;
+			}
+		}
+	}
+	
+}
+#all-screen{
+	height:530px;
+}
+#proto-type{
+	height:530px;
+	iframe{
+		margin: 0px auto;
+		display: block;
+	}
+}
+
+
+// Advantage of Frischh
+// =============================================== 
+.advantage{
+	background:$white;
+
+	h2{
+		font-size:25px;
+		color:$head;
+		padding-bottom:50px;
+		display:block;
+		margin-top: 60px;
+		strong{
+			font-weight:600;
+		}
+	}
+	ul{
+		li{
+			display:block;
+			color:$text;
+			background-repeat:no-repeat;
+			background-size:42px;
+			font-size:13px;
+			line-height:22px;
+			padding-left:70px;
+			margin-bottom:20px;
+			background-image:url(../images/icon-thump.svg);
+			line-height: 20px;
+			min-height:42px;
+			strong{
+				color:$head;
+				font-weight:600;
+			}
+		}
+	}
+}
+
+// team
+// =============================================== 
+
+.team{
+	background:$head;
+	h2{
+		display: block;
+		text-align: center;
+		font-size:25px;
+		color:$white;
+		padding-bottom:60px;
+		strong{
+			font-weight:600;
+		}
+	}
+	.box{
+		width: 100%;
+		border:1px solid #ffffff24;
+		padding:20px;
+		float: left;
+		min-height: 335px;
+		.head{
+			width: 100%;
+			i{
+				display: inline-block;
+				width: 34px;
+				height: 34px;
+				background-image:url(../images/icon-head.svg);
+				background-size:32px;
+				background-repeat:no-repeat;
+				float: left;
+				margin-right:10px;
+			}
+			.name{
+				display: block;
+				width: calc(100% - 44px);
+				float: left;
+				h3{
+					color: $white;
+					font-size: 14px;
+				}
+				span{
+					color: #ffffff9e;
+					font-size: 12px;
+				}
+			}
+		}
+		p{
+			display: block;
+			padding-top:20px;
+			color: #ffffff45;
+			font-size: 13px;
+			float: left;
+			line-height: 20px;
+			width: 100%;
+			font-family: 'Open Sans', sans-serif;
+			font-weight: 400;
+		}
+	}	
+}
+
+// Join Our Waiting List
+// =============================================== 
+.contact{
+	background:$white;
+	h2{
+		display: block;
+		text-align: center;
+		font-size:25px;
+		color:$head;
+		padding-bottom:30px;
+		strong{
+			font-weight:600;
+		}
+	}
+	p{
+		width: 100%;
+		font-size:13px;
+		line-height: 23px;
+		text-align: center;
+		color: $text;
+	}
+	.form{
+		width: 100%;
+		height: auto;
+		margin-top: 60px;
+	}
+	.msg{
+		textarea{
+			margin-top: 20px;
+		}
+	}
+	button{
+		border:none;
+		background: $red;
+		border-radius:3px;
+		-webkit-border-radius:3px;
+		-moz-border-radius:3px;
+		text-align: center;
+		transition: all 0.5s ease;
+  		height: 45px;
+  		padding:0px 35px;
+  		font-size: 13px;
+  		text-transform: capitalize;
+  		margin: 20px auto;
+  		display: block;
+  		width: 160px;
+		a{
+			color: $white;
+		}
+	}
+}

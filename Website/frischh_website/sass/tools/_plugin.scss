@@ -1,0 +1,25 @@
+.slider .slides li img {
+    background-size: cover;
+    background-position: center;
+}
+.slider .slides{
+	height:480px!important;
+	overflow:hidden;
+	background:none!important;
+}
+.slider .indicators{
+	bottom:-50px;
+}
+.slider .indicators .indicator-item.active{
+	background-color:$white!important;
+}
+.slider .indicators .indicator-item{
+	background-color:#ffffff3d!important;
+}
+
+.slider {
+    position: relative;
+    height: 400px;
+    width: 97%!important;
+    margin: 0px auto!important;
+}

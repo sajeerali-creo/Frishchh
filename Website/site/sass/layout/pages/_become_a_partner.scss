@@ -1,0 +1,154 @@
+.become-a-baner{
+	h1{
+		padding-top:20%;
+		span{
+			font-size:16px;
+			display:block;
+		}
+	}
+	button{
+		background: $green;
+	}
+}
+
+// The Reality
+// ============================================
+.reality{
+	background:$head;
+	h2{
+		font-size:25px;
+		color:$white;
+		margin-top:60px;
+		padding-bottom:50px;
+		display:block;
+		strong{
+			font-weight:600;
+		}
+	}
+	ul{
+		li{
+			display:block;
+			color:#ffffff8a;
+			background-image:url(../images/icon-reality.svg);
+			background-repeat:no-repeat;
+			background-size:42px;
+			font-size:13px;
+			line-height:22px;
+			padding-left:70px;
+			margin-bottom:20px;
+			height:42px;
+		}
+	}
+}
+
+// How to get started
+// ===========================================
+.started{
+	background:$white;
+	h2{
+		display: block;
+		text-align: center;
+		font-size:25px;
+		color:$head;
+		padding-bottom:60px;
+		strong{
+			font-weight:600;
+		}
+	}
+}
+
+// key-features
+// ===========================================
+.key-features{
+	background-image:url(../images/bg-core-value.png);
+	background-size:cover;
+	h2{
+		display: block;
+		text-align: center;
+		font-size:25px;
+		color:$white;
+		padding-bottom:60px;
+		strong{
+			font-weight:600;
+		}
+	}
+}
+
+// Core Value Propositions
+// ===========================================
+.core-value{
+	background:$white;
+	h2{
+		display: block;
+		text-align: center;
+		font-size:25px;
+		color:$head;
+		padding-bottom:60px;
+		strong{
+			font-weight:600;
+		}
+	}
+}
+
+// cost-structure
+// ===========================================
+.cost-structure{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#049a71+0,64b6e6+98 */
+	background: #049a71; /* Old browsers */
+	background: -moz-linear-gradient(45deg, #049a71 0%, #64b6e6 98%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(45deg, #049a71 0%,#64b6e6 98%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(45deg, #049a71 0%,#64b6e6 98%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#049a71', endColorstr='#64b6e6',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	min-height: 500px;
+	h2{
+		display: block;
+		text-align: center;
+		font-size:25px;
+		color:$white;
+		padding-bottom:20px;
+		strong{
+			font-weight:600;
+		}
+	}
+	p{
+		width: 100%;
+		font-size:13px;
+		line-height: 23px;
+		text-align: center;
+		color: $white;
+	}
+	.cost-table{
+		width: 580px;
+		margin:0px auto;
+		margin-top: 20px;
+		background:$white;
+		height: auto;
+		.left-sec{
+			float:left;
+			width: 50%;
+		}
+		.right-sec{
+			float:left;
+			width: 50%;
+		}
+		h2{
+			display: block;
+			height: 45px;
+			background:$blue;
+			font-size: 14px;
+			text-align: center;
+			line-height: 45px;
+			border:1px solid #ffffff57;
+		}
+		ul{
+			li{
+				display: block;
+				width: 100%;
+				border:1px solid #ffffff57;
+				padding:15px;
+				color: #fff;
+			}
+		}
+
+	}
+}

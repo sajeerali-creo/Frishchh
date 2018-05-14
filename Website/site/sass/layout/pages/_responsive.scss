@@ -1,0 +1,181 @@
+// ============bigScreen===========
+@media all and (max-width: 991px) {
+	nav ul li .become-a-bt{
+		width: 160px;
+	}
+	nav .brand-logo{
+		left: 15%!important;
+	}
+	nav .button-collapse{
+		float: right;
+	}
+	.banner-txt{
+		h1{
+			text-align: center;
+		}
+		button{
+			margin: 20px auto;
+		    text-align: center;
+		    /* float: none; */
+		    width: 200px;
+		    display: block;
+		}
+	}
+	.introducing, .feature, .customer, .advantage, .reality{
+		height: auto;
+		h2{
+			text-align: center;
+			margin-top:0px;
+		}
+		ul{
+			li{
+				background-size:30px;
+				padding-left:50px;
+			}
+		}
+		
+	}
+	.advantage{
+		li{
+			line-height: 20px!important;
+			background-size: 32px!important;
+		}
+	}
+	nav{
+		margin-top: 0px!important;
+		padding-bottom: 10px!important;
+    	border-bottom: 1px solid #f1f1f1;
+    	.brand-logo{
+    		width:80px;
+    	}
+	}
+	.sticky{
+		padding: 10px 20px;
+		height: 65px;
+	}
+
+
+	
+}
+
+
+
+// ============MediumScreen========
+@media all and (max-width: 768px) { 
+	nav ul li .become-a-bt{
+		width: 160px;
+	}
+	nav .brand-logo{
+		left: 15%!important;
+	}
+	nav .button-collapse{
+		float: right;
+	}
+	.banner-txt{
+		h1{
+			text-align: center;
+		}
+		button{
+			margin: 20px auto;
+		    text-align: center;
+		    /* float: none; */
+		    width: 210px;
+		    display: block;
+		}
+	}
+	.promotions{
+		height: auto;
+		h2{
+			font-size: 16px;
+			strong{
+				font-size: 16px;
+			}
+		}
+		h3{
+			font-size: 16px;
+		}
+	}
+	.introducing, .feature, .customer, .advantage, .reality{
+		height: auto;
+		h2{
+			text-align: center;
+			margin-top:0px;
+		}
+		
+	}
+	.advantage{
+		li{
+			line-height: 20px!important;
+			background-size: 32px!important;
+		}
+	}
+	    
+	.sec-paddig{
+		padding: 40px 0px;
+	}
+	.team .box{
+		margin-bottom:20px;
+	}
+	nav{
+		margin-top:0px!important;
+		padding-bottom: 10px!important;
+    	border-bottom: 1px solid #f1f1f1;
+    	.brand-logo{
+    		width:80px;
+    	}
+	}
+	.cost-structure .cost-table{
+		min-height: auto!important;
+		width: 100%;
+		.left-sec{
+			width: 100%;
+		}
+		.right-sec{
+			width: 100%;
+		}
+	}
+	.cost-structure{
+		min-height: 560px;
+	}
+	.become-a-baner{
+		min-height: auto;
+		padding-bottom:30px;
+		h1{
+			padding-top:0px;
+		}
+	}
+	.banner-txt{
+		padding-top:30px;
+	}
+	.sticky{
+		padding: 10px 20px;
+		height: 65px;
+		.button-collapse{
+			margin: -6px 18px;
+		}
+	}	
+	.slider .slides li img{
+		background-size:100%;
+	}
+	.slider .slides li{
+		height: 200px;
+	}
+	#all-screen{
+		height: 200px;
+	}
+	.slider .indicators{
+		bottom:0px;
+	}
+	.slider .slides{
+		height: 200px!important;
+	}
+	.slider{
+		height: 200px!important;
+	}
+
+
+}
+
+
+// ============SmallScreen=========
+@media all and (max-width: 480px) {}

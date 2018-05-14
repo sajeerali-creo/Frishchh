@@ -1,0 +1,33 @@
+footer{
+	width:100%;
+	background:$head;
+	text-align:center;
+	padding:30px 0px;
+	ul{
+		li{
+			display:inline-block;
+			width:45px;
+			height:45px;
+			border-radius:160px;
+			-moz-border-radius:160px;
+			-webkit-border-radius:160px;
+			background:#336783;
+			color:$white;
+			line-height:45px;
+			a{
+				color:$white;
+				display:block;
+			}
+			&:hover{
+				opacity:0.6;
+			}
+		}
+	}
+	span{
+		display:block;
+		text-align:center;
+		font-size:13px;
+		color:$white;
+		padding:15px 0px;
+	}
+}
